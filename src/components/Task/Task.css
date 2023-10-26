@@ -1,0 +1,39 @@
+.task{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 410px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFB6C1;
+}
+
+.name-task{
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.btn-delete{
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    border: none;
+    background: transparent;
+    
+}
+
+.icon-delete {
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    transition: all .3s ease;
+}
+
+.icon-delete:active {
+    transform: scale(0.9);
+}
